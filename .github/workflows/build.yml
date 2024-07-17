@@ -17,4 +17,5 @@ jobs:
 #    - run: nuget restore 'Source/SteamCMD GUI.sln'
 #    - run: curl -L "https://go.microsoft.com/fwlink/?linkid=2099466" -o C:\ndp462-devpack-kb3151934-enu.exe
 #    - run: C:\ndp462-devpack-kb3151934-enu.exe /quiet
+    - run: nuget install Microsoft.NETFramework.ReferencesAssemblies.net462
     - run: msbuild 'Source/SteamCMD GUI.sln'
